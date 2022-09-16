@@ -19,6 +19,6 @@
 *.tar.gz
 *.rar
 
-# Mac
+# Custom
 .DS_Store
-
+bin/
