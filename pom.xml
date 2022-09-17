@@ -17,6 +17,9 @@
 		<plugin>
 			<artifactId>maven-surefire-plugin</artifactId>
 			<version>2.22.2</version>
+		    <configuration>
+		        <argLine>-Dlog4j.configurationFile=./conf/log4j-console-config.xml</argLine>
+		    </configuration>
 		</plugin>
 		<plugin>
 			<groupId>org.jacoco</groupId>
